@@ -6,21 +6,21 @@
     <meta name="color-scheme" content="dark light" />
     <title>Закрывающий тег</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
     <link rel="stylesheet" href="./styles/themes.css" />
-    <link rel="icon" href="./images/favicon.ico" sizes="any">
-    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="./images/favicon.png"> 
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/favicon.png" />
     <script src="./scripts/set-theme.js"></script>
   </head>
   <body class="page container">
-    <header class="header ">
+    <header class="header">
       <div class="header-content">
-      <span class="header-logo">&lt;/HTML&gt;</span>
-      <h1 class="header-title">Закрывающий тег</h1>
+        <span class="header-logo">&lt;/HTML&gt;</span>
+        <h1 class="header-title">Закрывающий тег</h1>
       </div>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -47,35 +47,74 @@
           </li>
         </ul>
       </nav>
-      </header>
     </header>
     <main class="main">
       <section class="card container">
         <article class="card-list">
-          <h2 class="card-title">Фритрек и нулевой спринт:
-             Подготовка к работе</h2>
-             <div class="card_content-image">
-              <img class="content-image" 
-              src="./images/car1.png" 
-              loading="lazy"/>
-             </div>
-             <div class="card_content-box">
-              <p class="card-text">Это было самое начало пути. 
-                На этом этапе важно было проникнуться основами и 
-                настроиться на учёбу. И, возможно, подумать, 
-                как новые знания могут повлиять на ваше будущее.
-                </p>
-                <p class="card-text">Место для ваших воспоминаний о начале обучения.</p>
-              
-        <div class="card-button">
-              <button class="button-like" type="button">
-                <span class="button-like_text">Like</span>
+          <h2 class="card-title">
+            Фритрек и нулевой спринт: Подготовка к работе
+          </h2>
+          <div class="card_content-image">
+            <img
+              class="content-image"
+              src="./images/car1.png"
+              alt="Машина едит по ночной дороге"
+              loading="lazy"
+            />
+            <p class="watermark watermark-shadow">&lt;/HTML&gt;</p>
+          </div>
+          <div class="card_content-box">
+            <p class="card-text">
+              Это было самое начало пути. На этом этапе важно было проникнуться
+              основами и настроиться на учёбу. И, возможно, подумать, как новые
+              знания могут повлиять на ваше будущее.
+            </p>
+            <p class="card-text">
+              Место для ваших воспоминаний о начале обучения.
+            </p>
+
+            <div class="card-button">
+              <button class="button card__icon-button">
+                <svg
+                  class="like-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="39"
+                  height="36"
+                  fill="none"
+                >
+                  <g class="heart">
+                    <path
+                      class="contour"
+                      fill="var(--svg-contour)"
+                      d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z"
+                    />
+
+                    <path
+                      class="main-body"
+                      fill="none"
+                      d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z"
+                    />
+
+                    <path
+                      class="core"
+                      fill="none"
+                      d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z"
+                    />
+                  </g>
+                  <path
+                    class="sparks"
+                    fill="var(--fill-sparks)"
+                    d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"
+                  />
+                </svg>
+              </button>
+              <button class="button card__like-button" type="button">
+                <span class="button__text">Like</span>
               </button>
             </div>
           </div>
-            </article>
+        </article>
       </section>
-
     </main>
     <script src="./scripts/like.js"></script>
   </body>
