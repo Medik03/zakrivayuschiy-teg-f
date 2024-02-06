@@ -27,7 +27,7 @@
   padding: 100px 0px;
   gap: 100px;
   color: var(--accent-color);
-  font-variation-settings: "wght" var(--text-weight, 400);
+  font-variation-settings: var(--text-weight, 400);
 }
 
 .header {
@@ -339,7 +339,7 @@
 }
 
 .car-brightness {
-  filter: brightness(40%);
+  filter: brightness(100%) saturate(60%) sepia(30%);
 }
 
 .car-invert {
