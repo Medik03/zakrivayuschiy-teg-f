@@ -138,3 +138,29 @@
   transition: outline 0.3s ease;
   outline-offset: -2px;
 }
+
+.button-save:hover::before {
+  transform: scaleX(1);
+}
+
+.button-save:focus {
+  outline: none;
+}
+
+.button-save:focus-visible {
+  box-shadow: 2px 2px 0px var(--accent-color);
+  transition: box-shadow 0.3s ease;
+}
+
+.button-dialog:hover::before {
+  transform: scaleX(1);
+}
+
+.button-dialog:focus {
+  outline: none;
+}
+
+.button-dialog:focus-visible {
+  box-shadow: 2px 2px 0px var(--accent-color);
+  transition: box-shadow 0.3s ease;
+}

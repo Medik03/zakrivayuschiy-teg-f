@@ -2,7 +2,7 @@
 
 :root {
   --font-basic: "Inter-variable", sans-serif;
-  --font-accent: "PressStart2P-Regular", fantasy;
+  --font-accent: "PressStart2P", fantasy;
   --background-color: rgb(255, 255, 255);
   --background-image: repeating-linear-gradient(
       90deg,
@@ -32,4 +32,5 @@
   --button-text: #fff;
   --button-background: #000;
   --fill-red: red;
+  --floppy-color: #fff;
 }

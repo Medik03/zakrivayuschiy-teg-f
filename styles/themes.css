@@ -7,7 +7,7 @@
 
 :root.theme-light {
   --font-basic: "Inter-variable", sans-serif;
-  --font-acent: "PressStart2P-Regular", fantasy;
+  --font-accent: "PressStart2P", fantasy;
   --background-color: rgb(255, 255, 255);
   --background-image: repeating-linear-gradient(
       90deg,
@@ -24,12 +24,26 @@
       transparent 4px
     ),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --accent-color: #000;
+  --border-color: #000;
+  --title-weight: 700;
+  --text-weight: 400;
+  --font-size-text: 14px;
+  --text-shadow-color: #fff;
+  --background-color-hover: #000;
+  --button-like-textcolor: #fff;
+  --svg-contour: #000;
+  --fill-sparks: red;
+  --button-text: #fff;
+  --button-background: #000;
+  --fill-red: red;
+  --floppy-color: #fff;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --font-basic: "Inter-variable", sans-serif;
-    --font-acent: "PressStart2P-Regular", fantasy;
+    --font-accent: "PressStart2P", fantasy;
     --background-color: rgb(255, 255, 255);
     --background-image: repeating-linear-gradient(
         90deg,
@@ -46,6 +60,20 @@
         transparent 4px
       ),
       linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    --accent-color: #000;
+    --border-color: #000;
+    --title-weight: 700;
+    --text-weight: 400;
+    --font-size-text: 14px;
+    --text-shadow-color: #fff;
+    --background-color-hover: #000;
+    --button-like-textcolor: #fff;
+    --svg-contour: #000;
+    --fill-sparks: red;
+    --button-text: #fff;
+    --button-background: #000;
+    --fill-red: red;
+    --floppy-color: #fff;
   }
 }
 
@@ -68,6 +96,20 @@
       transparent 4px
     ),
     linear-gradient(to bottom, #007f0c 0.01%, #004306);
+  --accent-color: #00cc14;
+  --border-color: #00cc14;
+  --title-weight: 700;
+  --text-weight: 400;
+  --font-size-text: 14px;
+  --text-shadow-color: #00cc14;
+  --background-color-hover: #00cc14;
+  --button-like-textcolor: #00cc14;
+  --svg-contour: #00cc14;
+  --fill-sparks: red;
+  --button-text: #00cc14;
+  --button-background: #00cc14;
+  --fill-red: red;
+  --floppy-color: #00cc14;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -90,5 +132,19 @@
         transparent 4px
       ),
       linear-gradient(to bottom, #007f0c 0.01%, #004306);
+    --accent-color: #00cc14;
+    --border-color: #00cc14;
+    --title-weight: 700;
+    --text-weight: 400;
+    --font-size-text: 14px;
+    --text-shadow-color: #00cc14;
+    --background-color-hover: #00cc14;
+    --button-like-textcolor: #00cc14;
+    --svg-contour: #00cc14;
+    --fill-sparks: red;
+    --button-text: #00cc14;
+    --button-background: #00cc14;
+    --fill-red: red;
+    --floppy-color: #00cc14;
   }
 }
