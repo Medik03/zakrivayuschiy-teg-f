@@ -59,7 +59,7 @@
 }
 
 .header-logo {
-  font-family: var(--font-accent);
+  font-family: var(--font-accent), fantasy;
   color: var(--accent-color);
   font-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
   line-height: 65px;
@@ -68,7 +68,7 @@
 }
 
 .header-title {
-  font-family: var(--font-accent);
+  font-family: var(--font-accent), fantasy;
   color: var(--accent-color);
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   font-weight: var(--text-weight);
@@ -90,7 +90,7 @@
 
 .theme-menu__button {
   position: relative;
-  font-family: var(--font-accent);
+  font-family: var(--font-accent), fantasy;
   font-size: var(--font-size-text);
   color: var(--accent-color);
   text-transform: uppercase;
@@ -142,7 +142,7 @@
 }
 
 .card-title {
-  font-family: var(--font-basic);
+  font-family: var(--font-basic), sans-serif;
   color: var(--accent-color);
   font-size: 18px;
   font-weight: var(--title-weight);
@@ -170,7 +170,7 @@
 }
 
 .card-text {
-  font-family: var(--font-basic);
+  font-family: var(--font-basic), sans-serif;
   color: var(--accent-color);
   font-size: 18px;
   font-weight: var(--text-weight);
@@ -196,7 +196,7 @@
 }
 
 .button__text {
-  font-family: var(--font-accent);
+  font-family: var(--font-accent), fantasy;
   color: var(--button-text);
   font-size: var(--font-size-text);
   font-weight: var(--text-weight);
@@ -206,7 +206,7 @@
 }
 
 .watermark {
-  font-family: var(--font-accent);
+  font-family: var(--font-accent), fantasy;
   font-size: var(--font-size-text);
   font-weight: var(--text-weight);
   line-height: 14px;
@@ -294,7 +294,7 @@
 
 .button__text-dialog {
   color: var(--button-like-textcolor);
-  font-family: var(--font-accent);
+  font-family: var(--font-accent), fantasy;
   font-size: var(--font-size-text);
   font-weight: var(--text-weight);
   line-height: 150%;
@@ -338,6 +338,37 @@
   inset: 0;
 }
 
+.car-brightness {
+  filter: brightness(40%);
+}
+
+.car-invert {
+  filter: invert(40%);
+}
+
+.car-sepia {
+  filter: sepia(70%);
+}
+
+.car-hue-rotate {
+  filter: hue-rotate(90deg);
+}
+
+.car-saturate {
+  filter: saturate(60%);
+}
+
+.car-grayscale {
+  filter: grayscale(0.8);
+}
+
+.car-blur {
+  filter: blur(3px);
+}
+
+.car-contrast {
+  filter: contrast(50%);
+}
 @media (width < 768px) {
   .header-content {
     margin-block-start: 111px;
