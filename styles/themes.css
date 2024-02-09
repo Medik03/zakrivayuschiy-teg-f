@@ -6,8 +6,6 @@
 */
 
 :root.theme-light {
-  --font-basic: "Inter-variable", sans-serif;
-  --font-accent: "PressStart2P", fantasy;
   --background-color: rgb(255, 255, 255);
   --background-image: repeating-linear-gradient(
       90deg,
@@ -42,8 +40,6 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --font-basic: "Inter-variable", sans-serif;
-    --font-accent: "PressStart2P", fantasy;
     --background-color: rgb(255, 255, 255);
     --background-image: repeating-linear-gradient(
         90deg,
@@ -78,8 +74,6 @@
 }
 
 :root.theme-dark {
-  --font-basic: "Inter-variable", sans-serif;
-  --font-acent: "PressStart2P-Regular", fantasy;
   --background-color: #000000;
   --background-image: repeating-linear-gradient(
       90deg,
@@ -114,8 +108,6 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --font-basic: "Inter-variable", sans-serif;
-    --font-acent: "PressStart2P-Regular", fantasy;
     --background-color: #000000;
     --background-image: repeating-linear-gradient(
         90deg,

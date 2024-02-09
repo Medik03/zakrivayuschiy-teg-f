@@ -388,6 +388,11 @@
     padding-inline-start: 13px;
   }
 
+  .watermark {
+    top: 22px;
+    right: 11px;
+  }
+
   .button-save {
     inline-size: 306px;
     block-size: 80px;
