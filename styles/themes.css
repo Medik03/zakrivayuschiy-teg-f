@@ -101,7 +101,7 @@
   --title-weight: 700;
   --text-weight: 400;
   --font-size-text: 14px;
-  --text-shadow-color: #00cc14;
+  --text-shadow-color: #000;
   --background-color-hover: #00cc14;
   --button-like-textcolor: #00cc14;
   --svg-contour: #00cc14;
@@ -137,7 +137,7 @@
     --title-weight: 700;
     --text-weight: 400;
     --font-size-text: 14px;
-    --text-shadow-color: #00cc14;
+    --text-shadow-color: #000;
     --background-color-hover: #00cc14;
     --button-like-textcolor: #00cc14;
     --svg-contour: #00cc14;
